@@ -72,6 +72,15 @@ ol.clauses .t > p:last-child { margin-bottom: 0 }
 .req-block p { margin: 0 0 6px }
 @media (max-width: 560px) { .doc { padding: 20px 16px 24px } }
 
+.prices { padding: 4px 20px }
+.prices table { width: 100%; border-collapse: collapse }
+.prices th { text-align: left; font-weight: 400; font-size: 13px; color: var(--muted); padding: 10px 0; border-bottom: 1px solid var(--line) }
+.prices td { padding: 12px 0; border-bottom: 1px solid var(--line); vertical-align: top }
+.prices tr:last-child td { border-bottom: 0 }
+.prices .r { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums }
+.prices td.r { font-weight: 700 }
+.price-note { color: var(--muted); font-size: 14px; margin-top: 12px; max-width: 72ch }
+@media (max-width: 560px) { .prices th:nth-child(2), .prices td:nth-child(2) { display: none } }
 footer { margin-top: 40px; color: var(--muted); font-size: 13px }
 @media (prefers-reduced-motion: no-preference) { button.copy { transition: filter .15s } }
 </style>
@@ -101,12 +110,19 @@ footer { margin-top: 40px; color: var(--muted); font-size: 13px }
 </dl>
 </div>
 
-<h2 id="uslugi">Услуги и оплата</h2>
-<div class="card" style="padding:16px 20px">
-  <p>Устные индивидуальные онлайн-консультации по физике и математике для несовершеннолетних по запросу законного представителя. Формат — аудио- или видеозвонок, длительность согласовывается индивидуально.</p>
-  <p>Стоимость сообщается до консультации и зависит от запроса. Оплата — 100 % предоплата по реквизитам исполнителя или через доступные способы онлайн-оплаты. Оплата означает принятие (акцепт) публичной оферты ниже.</p>
-  <p style="margin:0">Перенос по инициативе заказчика — уведомление не менее чем за 4 часа до начала; возврат при отказе до начала оказания услуг — по правилам п. 4.5 оферты.</p>
+<h2 id="uslugi">Услуги и цены</h2>
+<div class="card prices">
+<table>
+  <thead><tr><th>Услуга</th><th>Длительность</th><th class="r">Стоимость</th></tr></thead>
+  <tbody>
+    <tr><td>Подготовка к ОГЭ по математике</td><td>60 минут</td><td class="r">от 1 800 ₽</td></tr>
+    <tr><td>Подготовка к ЕГЭ по математике</td><td>60 минут</td><td class="r">от 1 800 ₽</td></tr>
+    <tr><td>Подготовка к ОГЭ по русскому языку</td><td>60 минут</td><td class="r">от 1 800 ₽</td></tr>
+    <tr><td>Подготовка к ЕГЭ по русскому языку</td><td>60 минут</td><td class="r">от 1 800 ₽</td></tr>
+  </tbody>
+</table>
 </div>
+<p class="price-note">Занятия проходят индивидуально онлайн, в формате аудио- или видеозвонка. Точная стоимость зависит от запроса и сообщается до оплаты. Оплата — 100 % предоплата по реквизитам исполнителя; оплата означает принятие (акцепт) публичной оферты ниже. Перенос по инициативе заказчика — уведомление не менее чем за 4 часа до начала; возврат при отказе до начала оказания услуг — по правилам п. 4.5 оферты.</p>
 
 <h2 id="oferta">Публичная оферта</h2>
 <ul class="toc"><li><a href="#s1">1. Общие положения</a></li><li><a href="#s2">2. Предмет оферты</a></li><li><a href="#s3">3. Порядок взаимодействия</a></li><li><a href="#s4">4. Стоимость услуг. порядок оплаты</a></li><li><a href="#s5">5. Права и обязанности сторон</a></li><li><a href="#s6">6. Ответственность сторон</a></li><li><a href="#s7">7. Обработка персональных данных</a></li><li><a href="#s8">8. Срок действия оферты, договора. разрешение споров</a></li><li><a href="#s9">9. Заключительные положения</a></li><li><a href="#s10">10. Реквизиты исполнителя</a></li></ul>
